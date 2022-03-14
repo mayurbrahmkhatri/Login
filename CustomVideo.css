@@ -1,0 +1,39 @@
+.viewer {
+  padding: 5px;
+  width: 100%;
+  height: auto;
+}
+.buttons {
+  top: 20vw;
+  position: absolute;
+  width: 100vw;
+  /* visibility: collapse; */
+}
+.buttons:hover {
+  visibility: visible;
+}
+.bars {
+  position: absolute;
+  width: 90%;
+  padding: 0px 5px;
+}
+.progress {
+  background-color: transparent;
+  width: 80%;
+  /* position: absolute; */
+  top: 54vw;
+  height: 1vh;
+  text-align: center;
+}
+.progressBar {
+  width: 100%;
+  /* margin: 5px; */
+  /* padding: 5px; */
+  /* padding-left: 5px; */
+  /* padding-right: 5px; */
+}
+.time {
+  color: red;
+  font-size: 1rem;
+  /* position: relative; */
+}
